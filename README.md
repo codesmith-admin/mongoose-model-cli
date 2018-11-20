@@ -42,7 +42,7 @@ You can require the models individually, or just require them all like so:
 ```javascript
 var models = require('./models/all-models');
 ```
-This brings them in an an object. You can also place them all on the global scope like this:
+This brings them in an object. You can also place them all on the global scope like this:
 ```javascript
 require('../all-models').toContext(global);
 ```
